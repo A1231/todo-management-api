@@ -1,0 +1,184 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+logs/
+*.log.*
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle (if used in future)
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+.idea_modules/
+atlassian-ide-plugin.xml
+
+# IDE - Eclipse
+.classpath
+.project
+.settings/
+bin/
+.metadata
+.loadpath
+.recommenders
+.factorypath
+.buildpath
+.target
+.sts4-cache
+
+# IDE - VS Code
+.vscode/
+*.code-workspace
+
+# IDE - NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Windows
+*.lnk
+
+# Application Properties - SECURITY: Contains sensitive data
+# DO NOT COMMIT application.properties with real credentials
+src/main/resources/application.properties
+src/main/resources/application-*.properties
+!src/main/resources/application.properties.example
+!src/main/resources/application.properties.template
+
+# Environment-specific configuration files
+.env
+.env.local
+.env.*.local
+*.env
+application-local.properties
+application-dev.properties
+application-prod.properties
+application-staging.properties
+
+# Secrets and Keys
+*.pem
+*.key
+*.p12
+*.jks
+*.keystore
+*.truststore
+secrets/
+*.secret
+*.credentials
+config/secrets/
+
+# JWT Keys and Certificates
+*.jwt
+jwt-secret.txt
+jwt-keys/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+*.h2.db
+*.mv.db
+*.trace.db
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.cache/
+
+# Spring Boot
+spring-boot-*.log
+application-*.log
+
+# Test coverage
+.nyc_output/
+coverage/
+*.lcov
+.coveralls.yml
+
+# Application logs
+logs/
+*.log
+application.log
+
+# H2 Database (if used for testing)
+*.mv.db
+*.trace.db
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Node modules (if frontend is added later)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Package lock files (if frontend is added)
+package-lock.json
+yarn.lock
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Archives
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
