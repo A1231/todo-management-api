@@ -166,20 +166,3 @@ This will create a JAR file in the `target` directory that can be run with:
 ```bash
 java -jar target/todos-0.0.1-SNAPSHOT.jar
 ```
-
-## Testing
-
-Run tests with:
-
-```bash
-mvn test
-```
-
-## License
-
-This project is a demo application for Spring Boot.
-
-## Author
-
-Demo project for Spring Boot
-
